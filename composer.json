@@ -11,9 +11,15 @@
             "email": "stof@notk.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ksn135/DoctrineExtensions"
+        }
+    ],
     "require": {
         "php": "^8.1",
-        "gedmo/doctrine-extensions": "^3.20.0",
+        "gedmo/doctrine-extensions": "dev-baza",
         "symfony/cache": "^6.4 || ^7.0",
         "symfony/config": "^6.4 || ^7.0",
         "symfony/dependency-injection": "^6.4 || ^7.0",
